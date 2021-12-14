@@ -44,7 +44,7 @@ Any data is stored in the `data` directory (see Data header below for descriptio
 ├── A4 - Visualization Explanation.docx
 ├── A5 - Extension Plan.docx
 ├── A6 - Presentation.pptx
-└── A7 - Final Report.docx
+└── A7 - Project Report.docx
 ```
 
 
@@ -190,3 +190,4 @@ Project Link: [https://github.com/nriggio/data-512-project](https://github.com/n
 * [MIT License](https://opensource.org/licenses/MIT)
 * [IDOH: COVID-19 Vaccinations by County by Date](https://hub.mph.in.gov/dataset/covid-19-vaccinations-by-date)
 * [USNews: Indiana Governor Stymies Vaccine Mandates](https://www.usnews.com/news/best-states/indiana/articles/2021-11-22/indiana-gop-bill-stymies-workplace-covid-19-vaccine-mandates)
+* [Wikipedia: PechaKucha](https://en.wikipedia.org/wiki/PechaKucha)
