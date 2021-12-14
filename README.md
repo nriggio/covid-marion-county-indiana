@@ -51,11 +51,11 @@ Any data is stored in the `data` directory (see Data header below for descriptio
 <!-- SPECIAL CONSIDERATIONS -->
 ## Special Considerations:
 
+Any special considerations regarding the dataset or simplfying assumptions made for the analysis are detailed in the `notes` in the __Data__ section or in the analysis itself (marion-county-COVID.ipynb).
 
 <!-- DATA -->
 ## Data:
 
-### Data:
 The data is contained in 7 CSV files formatted as follows:
 
 * Filename: `RAW_us_confirmed_cases.csv` & `RAW_us_deaths.csv`
