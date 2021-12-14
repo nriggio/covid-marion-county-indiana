@@ -33,7 +33,7 @@ Any data is stored in the `data` directory (see Data header below for descriptio
 │   ├── kaggle
 │     ├── RAW_us_confirmed_cases.csv
 │     ├── RAW_us_deaths.csv
-│   ├── U.S._State_and_Territorial_Public_Mask_Mandates_From_April_10__2020_through_August_15__2021_by_County_by_Day.csv
+│   ├── U.S._State_and_Territorial_Public_Mask_Mandates_From_April_10__2020_through_August_15__2021_by_County_by_Day.zip
 │   ├── mask-use-by-county.csv
 │   ├── hospitalizations.csv
 │   ├── covid_report_bedvent_date.csv
@@ -59,6 +59,7 @@ Any data is stored in the `data` directory (see Data header below for descriptio
 The data is contained in 7 CSV files formatted as follows:
 
 * Filename: `RAW_us_confirmed_cases.csv` & `RAW_us_deaths.csv`
+* Source: https://www.kaggle.com/antgoldbloom/covid19-data-from-john-hopkins-university
 * Data Structure:
 
 | Column         | Description                                              |
@@ -76,8 +77,9 @@ The data is contained in 7 CSV files formatted as follows:
 | Combined_Key   | County, State, Country                                   |
 | Date           | One column per date from 1/22/20 - today (updated daily) |
 
-* Filename: `U.S._State_and_Territorial_Public_Mask_Mandates_From_April_10__2020_through_August_15__2021_by_County_by_Day.csv`
-* Data Structure: note that `public masking` is defined as a requirement for individuals operating in a personal capacity to wear masks 1) anywhere outside their homes or 2) both in retail businesses and in restaurants/food establishments.
+* Filename: `U.S._State_and_Territorial_Public_Mask_Mandates_From_April_10__2020_through_August_15__2021_by_County_by_Day.zip`
+* Source: https://data.cdc.gov/Policy-Surveillance/U-S-State-and-Territorial-Public-Mask-Mandates-Fro/62d6-pm5i
+* Data Structure: note that `public masking` is defined as a requirement for individuals operating in a personal capacity to wear masks 1) anywhere outside their homes or 2) both in retail businesses and in restaurants/food establishments. This file is stored in a ZIP & must be extracted to view.
 
 | Column                        | Description                                    |
 |-------------------------------|------------------------------------------------|
@@ -93,12 +95,15 @@ The data is contained in 7 CSV files formatted as follows:
 | Citation                      | Citation for the order                         |
 
 * Filename: `mask-use-by-county.csv`
+* Source: https://github.com/nytimes/covid-19-data/tree/master/mask-use
 * Brief Description: each column represents an answer to the question “How often do you wear a mask in public when you expect to be within six feet of another person?”
 
 * Filename: `hospitalizations.csv`
-* Brief Description: this is a 2-column dataset with the date & 7-day rolling average COVID-19 hospitalizations in Marion County, IN. 
+* Source: https://marionhealth.org/coviddashboard/DR4417-COVID-Public-Information-Dashboard.html
+* Brief Description: this is a 2-column dataset with the date & 7-day rolling average COVID-19 hospitalizations in Marion County, IN and was extracted from the dashboard using WebPlotDigitizer. 
 
 * Filename: `covid_report_bedvent_date.csv`
+* Source: https://hub.mph.in.gov/dataset/covid-19-bed-and-vent-usage-by-day
 * Data Structure:
 
 | Column                                   | Description                                                       |
@@ -120,6 +125,7 @@ The data is contained in 7 CSV files formatted as follows:
 | PCT_VENTS_ALL_AVAILABLE_VENTS_NOT_IN_USE | Percentage of ICU ventilators remaining available.                |
 
 * Filename: `county-vaccinations-by-date.csv`
+* Source: https://hub.mph.in.gov/dataset/covid-19-vaccinations-by-date
 * Data Structure: any values <5 are suppressed
 
 | Column                        | Description                                                                                       |
@@ -182,5 +188,5 @@ Project Link: [https://github.com/nriggio/data-512-project](https://github.com/n
 * [USNews: Indiana Hospitals at Capacity](https://www.usnews.com/news/best-states/indiana/articles/2021-09-08/covid-19-patients-strain-indiana-hospitals-as-virus-surges)
 * [WTHR: Marion County Hospitals on Diversion](https://www.wthr.com/article/news/verify/yes-many-indianapolis-area-hospitals-have-been-turning-away-ambulances-because-their-ers-and-icus-are-too-full-verify/531-28e2216c-dc3f-4b4d-ae3c-f02f30634439)
 * [MIT License](https://opensource.org/licenses/MIT)
-* [IDOH: COVID-19 Vaccinations by County by Date](https://hub.mph.in.gov/dataset/covid-19-vaccinations-by-date))
+* [IDOH: COVID-19 Vaccinations by County by Date](https://hub.mph.in.gov/dataset/covid-19-vaccinations-by-date)
 * [USNews: Indiana Governor Stymies Vaccine Mandates](https://www.usnews.com/news/best-states/indiana/articles/2021-11-22/indiana-gop-bill-stymies-workplace-covid-19-vaccine-mandates)
