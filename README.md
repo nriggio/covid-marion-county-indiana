@@ -40,11 +40,11 @@ Any data is stored in the `data` directory (see Data header below for descriptio
 │   ├── county-vaccinations-by-date.csv
 ├── marion-county-COVID.ipynb
 ├── infection_rate.png
-├── A4 - Reflection Statement.docx
-├── A4 - Visualization Explanation.docx
-├── A5 - Extension Plan.docx
-├── A6 - Presentation.pptx
-└── A7 - Project Report.docx
+├── A4 - Reflection Statement.pdf
+├── A4 - Visualization Explanation.pdf
+├── A5 - Extension Plan.pdf
+├── A6 - Presentation.pdf
+└── A7 - Project Report.pdf
 ```
 
 
